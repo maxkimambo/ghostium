@@ -353,7 +353,7 @@ module.exports = function(grunt) {
      */
     changelog: {
       options: {
-        github: 'oswaldoacauan/ghostium'
+        github: 'maxkimambo/ghostium'
       }
     },
   });
@@ -400,8 +400,7 @@ module.exports = function(grunt) {
     'replace:build',
     'imagemin:build',
     'svgmin:build',
-    'autoprefixer:build',
-    'csso:build'
+    'autoprefixer:build'
   ]);
 
   /**
